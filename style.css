@@ -25,7 +25,8 @@ body {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(
+  background:
+    linear-gradient(
       135deg,
       rgba(0, 153, 219, 0.9) 0%,
       rgba(0, 104, 181, 0.9) 50%,
@@ -256,6 +257,59 @@ button .fas {
 .success-message {
   background-color: #e8f4fc;
   color: #003c71;
+}
+
+.celebration-message {
+  margin-top: 12px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #075985;
+  background: #dbeafe;
+  border: 1px solid #7dd3fc;
+  border-radius: 12px;
+  padding: 16px 18px;
+}
+
+.attendee-list {
+  margin-top: 28px;
+}
+
+.attendee-list h3 {
+  font-size: 16px;
+  color: #475569;
+  margin-bottom: 14px;
+  text-align: center;
+}
+
+.attendee-items {
+  list-style: none;
+  display: grid;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+.attendee-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 16px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+}
+
+.attendee-name {
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.attendee-team {
+  font-size: 14px;
+  color: #334155;
+  background: #e2efff;
+  padding: 6px 10px;
+  border-radius: 999px;
 }
 
 /* Counter */
